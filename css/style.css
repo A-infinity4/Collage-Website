@@ -1,0 +1,217 @@
+#border{
+    height: 1355px;
+    width: 1274px;
+    margin-left: 5px;
+    background-image: url('1.jpg');
+  }
+  #h1{
+    height: 5px;
+    width: 1274px;
+    background-color: #993333;
+  }
+  #header {
+height: 150px;
+width: 1274px;
+background-color: #cccccc;
+background-image: linear-gradient(gainsboro, #f2d9d9,lightgrey);
+}
+#mark{
+height: 35px;
+width: 1274px;
+font-size:12px;
+background-color: white;
+}
+#middle{
+height: 800px;
+width: 1274px;
+background-color: grey;
+color: black;
+}
+#slider{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.mid{
+height: 790px;
+border: 5px solid black;
+}
+.m{
+height: 795px;
+width: 268px;
+background-color: lightgrey;
+
+}
+new{
+background-color: blue;
+color: white;
+padding: 10px 85px;
+margin-top: 10px;
+border: none;
+width: 600px;
+height: 70px;
+border-radius: 30px 30px 30px 30px;
+}
+n1{
+background-color: green;
+color: white;
+padding: 10px 85px;
+border: none;
+}
+#h3{
+        height: 1000px;
+        width: 100px;
+        margin-left:op 20px;
+        border:5px solid white;
+}
+g{
+margin: 30px;
+margin-bottom: 10px;
+}
+#menu{
+height: 45px;
+    width: 1274px;
+    background-color: #993333;
+    margin-top: 5px;
+          border:1px solid white;
+          font-weight: bold;
+}
+#menu ul
+{
+list-style-type:none;
+}
+#menu ul li{
+display:inline;
+margin: 10PX;
+}
+#menu ul li a{
+color:white;
+text-decoration:none;
+}
+#menu ul li a:hover{
+background-color: green;
+}
+#menu ul li ul li{
+display: none;
+}
+#menu ul li:hover ul li{
+     display: block;
+}
+
+#footer{
+     height: 300px;
+     width: 1274px;
+     border:2px solid white;
+     background-color: lightgrey;
+}
+.f1{
+   height:270px;
+     width:300.5px;
+     border:1px solid;
+     margin-left:15px;
+     margin-top:15px;
+     float:left;
+}
+#flast{
+     height: 35px;
+     width: 1274px;
+     background-color: mediumvioletred;
+     margin-right: 5px;
+    color: white;
+}
+p{
+font-family: verdana;
+font-size: 18px;
+font-weight: 100;
+border: 10px white;
+}
+.dropbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 230px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+  font-weight: bolder;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 10.5s;
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
